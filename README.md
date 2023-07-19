@@ -4,6 +4,6 @@
 
 ## Thumb:
 
-<img src='./src/assets/images/thumb.png' />
+<img src='./src/assets/images/thumb/thumb.png' />
 
 ## Link preview: [Email Template Design Togi](https://777hanh777hanh.github.io/project-11-Email-template-design-Togi)
