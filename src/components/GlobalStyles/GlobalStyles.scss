@@ -54,6 +54,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
     font-size: 1.6rem;
     overflow: overlay;
+    display: flex;
+    flex-direction: column;
+    background: var(--background-color);
 }
 
 // CSS Scrollbar
@@ -85,4 +88,41 @@ input,
 a {
     color: var(--text-color);
     text-decoration: none;
+}
+
+// Common CSS
+
+.wide {
+    max-width: 1440px;
+    width: calc(100% - 40px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section__heading {
+    color: var(--white-color);
+    font-size: 3.4rem;
+    font-weight: 500;
+    line-height: 1.29412;
+}
+
+.section__heading--large {
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 1.15625;
+}
+
+.section__desc {
+    color: var(--text-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.section__title {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.4rem;
 }

@@ -1,0 +1,9 @@
+.wrapper {
+    margin-top: 100px;
+}
+
+@supports (position: -webkit-sticky) or (position: sticky) {
+    .wrapper {
+        margin-top: 0;
+    }
+}

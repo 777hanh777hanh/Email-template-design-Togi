@@ -1,13 +1,14 @@
 import PropTypes from 'prop-types';
 
 import Header from '~/Layouts/components/Header';
-import Footer from '../components/Footer/Footer';
+import Body from '~/Layouts/components/Body';
+import Footer from '~/Layouts/components/Footer';
 
 const DefaultLayout = ({ children }) => {
     return (
         <>
             <Header />
-            {children}
+            <Body>{children}</Body>
             <Footer />
         </>
     );

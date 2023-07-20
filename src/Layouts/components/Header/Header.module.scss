@@ -1,3 +1,33 @@
 .header {
-    color: var(--primary-color);
+    position: fixed !important;
+    padding: 29px 0;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    .inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cta-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        -moz-column-gap: 16px;
+        column-gap: 16px;
+    }
+
+    .btn {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+}
+
+@supports (position: -webkit-sticky) or (position: sticky) {
+    .header {
+        position: -webkit-sticky !important;
+        position: sticky !important;
+    }
 }
