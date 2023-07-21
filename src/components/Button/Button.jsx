@@ -12,6 +12,7 @@ const Button = ({
     disabled,
     small,
     mobile,
+    link,
     children,
     leftIcon,
     rightIcon,
@@ -24,6 +25,7 @@ const Button = ({
         href,
         small,
         mobile,
+        link,
         disabled,
     });
     const props = {
@@ -60,11 +62,12 @@ const Button = ({
 };
 
 Button.propTypes = {
-    customClassNames: PropTypes.string,
+    className: PropTypes.string,
     to: PropTypes.string,
     href: PropTypes.string,
     onClick: PropTypes.func,
     disabled: PropTypes.bool,
+    link: PropTypes.bool,
     children: PropTypes.node.isRequired,
     leftIcon: PropTypes.node,
     rightIcon: PropTypes.node,

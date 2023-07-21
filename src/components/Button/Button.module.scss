@@ -61,3 +61,23 @@
 .icon-l {
     margin-right: 4px;
 }
+
+.link {
+    border: none;
+    outline: none;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    min-width: unset;
+    min-height: unset;
+
+    &::after {
+        content: unset;
+    }
+
+    &:hover {
+        background: transparent;
+        text-decoration: underline;
+        text-underline-offset: 0.5rem;
+    }
+}

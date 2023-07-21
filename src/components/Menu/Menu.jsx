@@ -5,11 +5,11 @@ import styles from './Menu.module.scss';
 import { Button } from '~/components/Button';
 import { ChevronDownIcon } from '../Icons';
 
-const Menu = (customClassNames) => {
+const Menu = ({ className: customClassName }) => {
     const cx = useClassNames(styles);
 
     return (
-        <div className={cx(customClassNames, 'wrapper')}>
+        <div className={cx(customClassName, 'wrapper')}>
             <Button className={cx('link')} rightIcon={<ChevronDownIcon />}>
                 Products
             </Button>
@@ -27,7 +27,7 @@ const Menu = (customClassNames) => {
 };
 
 Menu.propTypes = {
-    customClassNames: PropTypes.string,
+    className: PropTypes.string,
 };
 
 export default Menu;
