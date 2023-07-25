@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6deb6eb7.css",
-    "main.js": "/static/js/main.4078d0a1.js",
+    "main.css": "/static/css/main.f2722f65.css",
+    "main.js": "/static/js/main.06a1b228.js",
     "static/js/787.1ed940e1.chunk.js": "/static/js/787.1ed940e1.chunk.js",
     "static/media/thumb.png": "/static/media/thumb.cd3352e88f74e475ce81.png",
     "static/media/DMSans-9ptItalic.woff": "/static/media/DMSans-9ptItalic.1e474edfc36347721b3f.woff",
@@ -42,17 +42,18 @@
     "static/media/DMSans-ExtraBold.woff2": "/static/media/DMSans-ExtraBold.3ae07d168fbbb8355542.woff2",
     "static/media/DMSans-Medium.woff2": "/static/media/DMSans-Medium.13ed46869997f55abae6.woff2",
     "static/media/DMSans-Black.woff2": "/static/media/DMSans-Black.9df14a5a55f11b953b45.woff2",
+    "static/media/email-capture.png": "/static/media/email-capture.23991110f9f3dd7a1c0f.png",
     "static/media/DMSans-SemiBold.woff2": "/static/media/DMSans-SemiBold.0f119e7af6b6715d0d5d.woff2",
     "static/media/DMSans-Regular.woff2": "/static/media/DMSans-Regular.fba32178b024353fbf0b.woff2",
     "static/media/DMSans-Light.woff2": "/static/media/DMSans-Light.23e7f9fd5095d9456846.woff2",
     "static/media/logo.svg": "/static/media/logo.348d9e6f4f6dcad8376e2c9af20b3ad9.svg",
     "index.html": "/index.html",
-    "main.6deb6eb7.css.map": "/static/css/main.6deb6eb7.css.map",
-    "main.4078d0a1.js.map": "/static/js/main.4078d0a1.js.map",
+    "main.f2722f65.css.map": "/static/css/main.f2722f65.css.map",
+    "main.06a1b228.js.map": "/static/js/main.06a1b228.js.map",
     "787.1ed940e1.chunk.js.map": "/static/js/787.1ed940e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6deb6eb7.css",
-    "static/js/main.4078d0a1.js"
+    "static/css/main.f2722f65.css",
+    "static/js/main.06a1b228.js"
   ]
 }
