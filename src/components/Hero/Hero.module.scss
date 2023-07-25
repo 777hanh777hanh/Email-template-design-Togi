@@ -1,0 +1,81 @@
+.hero {
+    padding: 41px 0 80px;
+
+    .inner {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .menu {
+        margin-right: 96px;
+    }
+
+    .info {
+        margin-right: 56px;
+        max-width: 522px;
+    }
+
+    .desc {
+        margin-top: 12px;
+        max-width: 368px;
+    }
+
+    .btn {
+        margin-top: 40px;
+    }
+
+    .images {
+        max-width: 454px;
+    }
+
+    .input-form {
+        display: flex;
+        margin-top: 41px;
+        padding: 15px 16px;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 20px;
+        border-radius: 8px;
+        background: var(--background-secondary-color);
+    }
+
+    .input {
+        flex: 1;
+        align-self: stretch;
+        padding: 0 10px;
+        border: none;
+        outline: none;
+        background: transparent;
+        caret-color: currentColor;
+        color: var(--white-color);
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1;
+
+        &::placeholder {
+            color: var(--text-color);
+        }
+    }
+
+    .addProject,
+    .addImage {
+        width: auto;
+        height: auto;
+        min-width: unset;
+        min-height: unset;
+
+        &:hover {
+            background: transparent;
+        }
+        &::after {
+            content: unset;
+        }
+    }
+
+    .send {
+        width: 36px;
+        height: 36px;
+        z-index: 1;
+    }
+}

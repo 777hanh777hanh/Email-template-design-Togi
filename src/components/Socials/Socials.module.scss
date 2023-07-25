@@ -1,0 +1,58 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    --color: #ff974a;
+    --text-color: #d2efff;
+    --background-color: #222;
+
+    .socials-list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.2rem;
+    }
+
+    .social-btn {
+        display: flex;
+        width: 3.4rem;
+        height: 3.4rem;
+        min-width: unset;
+        min-height: unset;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 1.2rem;
+
+        &:hover {
+            background: var(--color);
+            color: var(--background-color);
+        }
+
+        &::after {
+            border-color: var(--color);
+        }
+    }
+
+    .cta {
+        margin-top: 3.2rem;
+        cursor: pointer;
+        padding: 0 1.1rem;
+    }
+
+    .desc {
+        display: block;
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1;
+        color: var(--text-color);
+        rotate: 180deg;
+        writing-mode: vertical-lr;
+        text-transform: uppercase;
+        letter-spacing: 0.6rem;
+    }
+
+    .arrow {
+        margin-top: 2rem;
+        color: var(--color);
+    }
+}

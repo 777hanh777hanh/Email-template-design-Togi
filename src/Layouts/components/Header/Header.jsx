@@ -5,6 +5,7 @@ import styles from './Header.module.scss';
 import Logo from '~/components/Logo';
 import { Menu } from '~/components/Menu';
 import { Button } from '~/components/Button';
+import { Link } from 'react-router-dom';
 
 const Header = ({ className: customClassName }) => {
     const cx = useClassNames(styles);
@@ -12,10 +13,12 @@ const Header = ({ className: customClassName }) => {
     return (
         <>
             <section className={cx(customClassName, 'header')}>
-                <div className="wide">
+                <div className={cx('wide-header', 'wide')}>
                     <div className={cx('inner')}>
                         {/* Logo */}
-                        <Logo />
+                        <Link to={'/'}>
+                            <Logo />
+                        </Link>
 
                         {/* Menu */}
                         <Menu />

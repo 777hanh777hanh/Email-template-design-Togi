@@ -4,6 +4,7 @@ import styles from './Footer.module.scss';
 import { Logo } from '~/components/Logo';
 import { useClassNames } from '~/hooks';
 import { Button } from '~/components/Button';
+import { Link } from 'react-router-dom';
 
 const Footer = ({ className: customClassName }) => {
     const cx = useClassNames(styles);
@@ -14,7 +15,9 @@ const Footer = ({ className: customClassName }) => {
                 <div className={cx('wide')}>
                     <div className={cx('inner')}>
                         {/* Logo */}
-                        <Logo className={cx('logo')} />
+                        <Link to={'/'}>
+                            <Logo className={cx('logo')} />
+                        </Link>
 
                         {/* Link */}
                         <div className={cx('content')}>

@@ -13,6 +13,7 @@ const Button = ({
     small,
     mobile,
     link,
+    circle,
     children,
     leftIcon,
     rightIcon,
@@ -26,6 +27,7 @@ const Button = ({
         small,
         mobile,
         link,
+        circle,
         disabled,
     });
     const props = {
@@ -68,6 +70,7 @@ Button.propTypes = {
     onClick: PropTypes.func,
     disabled: PropTypes.bool,
     link: PropTypes.bool,
+    circle: PropTypes.bool,
     children: PropTypes.node.isRequired,
     leftIcon: PropTypes.node,
     rightIcon: PropTypes.node,
