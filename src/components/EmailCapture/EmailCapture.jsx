@@ -4,6 +4,8 @@ import { useClassNames } from '~/hooks';
 import styles from './EmailCapture.module.scss';
 import { Image } from '~/components/Image';
 import { Button } from '~/components/Button';
+import { Title } from '~/components/Title';
+import { Heading } from '~/components/Heading';
 import images from '~/assets/images';
 
 const EmailCapture = ({ className: customClassName }) => {
@@ -18,10 +20,10 @@ const EmailCapture = ({ className: customClassName }) => {
                             <Image src={images.emailCapture} />
                         </figure>
                         <div className={cx('content')}>
-                            <h4 className={cx('title', 'section__title')}>email capture</h4>
-                            <h2 className={cx('section__heading', 'heading')}>
+                            <Title className={cx('title')}>email capture</Title>
+                            <Heading className={cx('heading')} type="h2">
                                 Multiple popups for multiple goals
-                            </h2>
+                            </Heading>
                             <p className={cx('section__desc', 'desc')}>
                                 From email capture to reducing cart abandonment, create multiple.
                             </p>

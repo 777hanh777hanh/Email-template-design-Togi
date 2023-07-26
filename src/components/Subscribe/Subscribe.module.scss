@@ -1,0 +1,22 @@
+.subscribe {
+    .inner {
+        padding: 80px 0;
+    }
+
+    .wide-subscribe {
+        max-width: 988px;
+    }
+
+    .heading {
+        margin-top: 8px;
+        max-width: 409px;
+    }
+}
+
+.content {
+    display: grid;
+    margin-top: 64px;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 28px;
+    row-gap: 40px;
+}
