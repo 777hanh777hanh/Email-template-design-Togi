@@ -9,6 +9,7 @@ const MailIcon = () => {
             height="44"
             fill="none"
             viewBox="0 0 44 44"
+            style={{ width: '100%', height: '100%' }}
         >
             <mask
                 id="mask0_1_271"
