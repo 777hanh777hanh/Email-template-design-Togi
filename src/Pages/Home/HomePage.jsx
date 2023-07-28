@@ -4,6 +4,7 @@ import { Hero } from '~/components/Hero';
 import { EmailCapture } from '~/components/EmailCapture';
 import { Subscribe } from '~/components/Subscribe';
 import { Feature } from '~/components/Feature';
+import { Status } from '~/components/Status';
 
 const HomePage = () => {
     const cx = useClassNames(styles);
@@ -19,6 +20,7 @@ const HomePage = () => {
             {/* Feature */}
             <Feature className={cx('feature')} />
             {/* Status */}
+            <Status className={cx('status')} />
             {/* WorkProcess */}
             {/* Teamwork */}
         </>
