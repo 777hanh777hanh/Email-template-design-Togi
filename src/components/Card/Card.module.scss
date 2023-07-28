@@ -24,17 +24,36 @@
 }
 
 .horizontal {
-    padding: 37px 28px;
+    padding: 3.7rem 2.8rem;
     justify-content: center;
     align-items: center;
-    -moz-column-gap: 24px;
-    column-gap: 24px;
+    -moz-column-gap: 2.4rem;
+    column-gap: 2.4rem;
 }
 
 .vertical {
-    padding: 40px;
+    padding: 4rem;
     flex-direction: column;
-    row-gap: 36px;
+    align-items: flex-start;
+    row-gap: 3.6rem;
+
+    .icon-wrapper {
+        position: relative;
+        padding: 2.2rem;
+    }
+
+    .icon {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+
+    .info {
+        text-align: start;
+    }
+
+    .desc {
+        margin-top: 1rem;
+    }
 }
 
 .icon-wrapper {
@@ -69,6 +88,7 @@
 }
 
 .desc {
+    margin-top: 0.8rem;
     color: var(--text-color);
     font-size: 1.6rem;
     font-weight: 400;
@@ -158,6 +178,7 @@
 .dots {
     justify-content: flex-start;
     background: var(--background);
+    -moz-column-gap: 17px;
     column-gap: 17px;
 
     &:hover {

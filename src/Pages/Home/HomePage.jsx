@@ -5,6 +5,7 @@ import { EmailCapture } from '~/components/EmailCapture';
 import { Subscribe } from '~/components/Subscribe';
 import { Feature } from '~/components/Feature';
 import { Status } from '~/components/Status';
+import { Service } from '~/components/Service';
 
 const HomePage = () => {
     const cx = useClassNames(styles);
@@ -13,15 +14,22 @@ const HomePage = () => {
         <>
             {/* Hero */}
             <Hero className={cx('hero')} />
+
             {/* Email capture */}
             <EmailCapture className={cx('email-capture')} />
+
             {/* Returning subscribers */}
             <Subscribe className={cx('subscribe')} />
+
             {/* Feature */}
             <Feature className={cx('feature')} />
+
             {/* Status */}
             <Status className={cx('status')} />
-            {/* WorkProcess */}
+
+            {/* WorkProcess - Service */}
+            <Service className={cx('service')} />
+
             {/* Teamwork */}
         </>
     );
