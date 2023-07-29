@@ -6,6 +6,7 @@ import { Subscribe } from '~/components/Subscribe';
 import { Feature } from '~/components/Feature';
 import { Status } from '~/components/Status';
 import { Service } from '~/components/Service';
+import { FeatureSupport } from '~/components/FeatureSupport';
 
 const HomePage = () => {
     const cx = useClassNames(styles);
@@ -30,7 +31,8 @@ const HomePage = () => {
             {/* WorkProcess - Service */}
             <Service className={cx('service')} />
 
-            {/* Teamwork */}
+            {/* featureSupport */}
+            <FeatureSupport className={cx('featureSupport')} />
         </>
     );
 };
