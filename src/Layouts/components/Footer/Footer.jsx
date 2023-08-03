@@ -5,7 +5,7 @@ import { Logo } from '~/components/Logo';
 import { useClassNames } from '~/hooks';
 import { Button } from '~/components/Button';
 import { Link } from 'react-router-dom';
-import FooterInfo from './FooterInfo/FooterInfo';
+import FooterInfo from './FooterInfo/';
 
 const Footer = ({ className: customClassName }) => {
     const cx = useClassNames(styles);

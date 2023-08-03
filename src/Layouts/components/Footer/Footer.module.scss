@@ -34,3 +34,38 @@
         color: var(--white-color);
     }
 }
+
+// =====Responsive=====
+
+// PC ( > 992 )
+@media screen and (min-width: 992px) {
+}
+
+// Tablet & Mobile ( < 991 )
+@media screen and (max-width: 991px) {
+    .footer {
+        .inner {
+            padding-top: 70px;
+        }
+    }
+}
+
+// Tablet ( 768 < x < 991 )
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+// Mobile ( < 767 )
+@media screen and (max-width: 767px) {
+    .footer {
+        .bottom {
+            row-gap: 20px;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .link {
+            padding-right: 22px;
+            padding-left: 0;
+        }
+    }
+}

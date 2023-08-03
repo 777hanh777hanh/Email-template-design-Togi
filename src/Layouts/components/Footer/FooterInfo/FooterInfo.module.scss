@@ -32,9 +32,9 @@
 
 .cta {
     display: flex;
+    margin-top: 108px;
     justify-content: space-between;
     align-items: center;
-    margin-top: 108px;
     padding: 48px 93px 54px 60px;
     background: var(--background-secondary-color);
     border-radius: 12px;
@@ -42,6 +42,7 @@
 
 .info {
     max-width: 386px;
+    width: 100%;
 }
 
 .heading {
@@ -80,4 +81,99 @@
     z-index: -1;
     right: -53px;
     bottom: 51px;
+}
+
+// =====Responsive=====
+
+// PC ( > 992 )
+@media screen and (min-width: 992px) {
+}
+
+// Tablet & Mobile ( < 991 )
+@media screen and (max-width: 991px) {
+    .footerInfo {
+        .wide-footerInfo {
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .inner {
+            padding-bottom: 40px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .brands {
+            margin-top: 40px;
+            column-gap: 40px;
+        }
+
+        .cta {
+            margin-top: 70px;
+        }
+    }
+}
+
+// Tablet ( 768 < x < 991 )
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .footerInfo {
+        .brands {
+            row-gap: 56px;
+        }
+    }
+}
+
+// Mobile ( < 767 )
+@media screen and (max-width: 767px) {
+    .footerInfo {
+        .title {
+            font-size: 1.8rem;
+        }
+
+        .brands {
+            flex-direction: column;
+            margin-top: 40px;
+            row-gap: 40px;
+        }
+
+        .brand {
+            margin-right: auto;
+            margin-left: 0;
+        }
+
+        .cta {
+            background: transparent;
+            padding: 0;
+            flex-direction: column;
+        }
+
+        .info {
+            max-width: 100%;
+        }
+
+        .heading {
+            font-size: 3rem;
+            line-height: 1.26667;
+        }
+
+        .desc {
+            margin-top: 15.26px;
+            font-size: 1.2rem;
+        }
+
+        .btn {
+            margin-top: 20.23px;
+        }
+
+        .image {
+            margin-top: 39.66px;
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .effect {
+            display: none;
+        }
+    }
 }
